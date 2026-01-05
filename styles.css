@@ -7,6 +7,25 @@ body {
     background-color: #f4f4f4;
     color: #333;
     line-height: 1.6;
+    font-size: 16px;
+    text-align: center;
+
+}
+h1, h2, h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
 }
 
 header {
@@ -70,19 +89,40 @@ h2 {
     margin-bottom: 1rem;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
 }
 
 .project h3 {
     margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.project p {
+    margin: 0;
+    font-size: 0.9rem;
+
+
 }
 
 a {
     color: #007bff;
     text-decoration: none;
+    font-weight: bold;
+    margin-left: 0.5rem;
+    transition: color 0.3s;
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+
 }
 
 a:hover {
     text-decoration: underline;
+
 }
 
 footer {
@@ -91,4 +131,11 @@ footer {
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.8rem;
+
 }
